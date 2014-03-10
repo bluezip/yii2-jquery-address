@@ -18,8 +18,12 @@ class Autoload extends \yii\base\widget {
         $this->registerAsset();
     }
 
+    /**
+     * No return
+     * @return string
+     */
     function run() {
-        return "Hello!";
+        return '';
     }
 
     /**
