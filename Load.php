@@ -1,20 +1,20 @@
 <?php
 
-namespace bluezip\yii2\jQueryAddress;
-use bluezip\yii2\jQueryAddress\assets\JQueryAddressAsset;
+namespace bluezip\yii2\jquery\address;
+use bluezip\yii2\jquery\address\assets\Asset;
 
 /**
  * 10 Mar 2014
  * @author Bluezip <serin212@hotmail.com>
  * Class Autoload
- * @package bluezip\yii2\jQueryAddress\Autoload
+ * @package bluezip\yii2\jquery\address\Load
  */
 
-class Autoload extends \yii\base\widget {
+class Load extends \yii\base\widget {
 
     public function init(){
         parent::init();
-        \Yii::setAlias('@jQueryAddress', dirname(__FILE__));
+        \Yii::setAlias('@BZJQueryAddress', dirname(__FILE__));
         $this->registerAsset();
     }
 
@@ -27,10 +27,10 @@ class Autoload extends \yii\base\widget {
     }
 
     /**
-     * Publish js css
+     * Publish js and css
      */
     private function registerAsset(){
         $view = $this->getView();
-        JQueryAddressAsset::register($view);
+        Asset::register($view);
     }
 }

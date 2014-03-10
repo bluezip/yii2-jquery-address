@@ -1,5 +1,5 @@
 <?php
-namespace bluezip\yii2\jQueryAddress\assets;
+namespace bluezip\yii2\jquery\address\assets;
 
 use yii\web\AssetBundle;
 
@@ -7,13 +7,13 @@ use yii\web\AssetBundle;
  * 10 Mar 2014
  * @author Bluezip <serin212@hotmail.com>
  * Class JqueryAddressAsset
- * @package bluezip\yii2\jQueryAddress\assets\JQueryAddressAsset
+ * @package bluezip\yii2\jquery\address\assets\Asset
  */
 
-class JQueryAddressAsset extends AssetBundle
+class Asset extends AssetBundle
 {
 
-    public $sourcePath = '@jQueryAddress/dist/';
+    public $sourcePath = '@BZJQueryAddress/dist/';
     public $path = '';
     public $css = [];
     public $js = [
