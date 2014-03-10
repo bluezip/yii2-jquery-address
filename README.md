@@ -28,5 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<? \bluezip\yii2\jquery\address\Load::widget(); ?>
+<?php \bluezip\yii2\jquery\address\Load::widget(); ?>
 ```
