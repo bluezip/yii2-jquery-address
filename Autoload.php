@@ -2,7 +2,7 @@
 
 namespace bluezip\yii2\jQueryAddress;
 
-use bluezip\yii2\jQueryAddress\assets;
+use bluezip\yii2\jQueryAddress\assets\JQueryAddressAsset;
 
 class Autoload extends \yii\base\widget {
     public function init(){
