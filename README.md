@@ -28,4 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \bluezip\yii2\jQueryAddress\Autoload::widget(); ?>```
+<?= \bluezip\yii2\jQueryAddress\Autoload::widget(); ?>
+```

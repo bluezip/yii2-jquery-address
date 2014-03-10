@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
  * 10 Mar 2014
  * @author Bluezip <serin212@hotmail.com>
  * Class JqueryAddressAsset
- * @package bluezip\yii2\jQueryAddress\assets
+ * @package bluezip\yii2\jQueryAddress\assets\JQueryAddressAsset
  */
 
 class JQueryAddressAsset extends AssetBundle
